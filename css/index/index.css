@@ -1,0 +1,26 @@
+.index{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url('../../images/fon.png');
+    background-repeat: no-repeat;       /* Изображение не повторяется */
+    background-position: center;       /* Центровка изображения */
+    background-size: cover;            /* Масштабируем изображение, чтобы оно покрывало весь фон */
+    min-height: 100vh;                 /* Минимальная высота равна высоте экрана */
+    display: flex;                     /* Позволяем контенту находиться поверх фона */
+    flex-direction: column;            /* Контент располагается вертикально */
+    justify-content: center;           /* Центруем содержимое по вертикали */
+    align-items: center;               /* Центруем содержимое по горизонтали */
+    color: white;                      
+}
+
+.scrollable-block {
+    max-height: 100px;  /* Максимальная высота блока */
+    overflow-y: scroll; /* Появляется вертикальная прокрутка, если контент выходит за пределы */
+    border: 1px solid #ccc; /* Необязательно: рамка для демонстрации блока */
+    padding: 10px;        /* Отступ внутри блока */
+}
+
+.scrollable-block::-webkit-scrollbar {
+    display: none;
+}
