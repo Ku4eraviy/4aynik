@@ -5,3 +5,8 @@
 
 @import 'index/header.css';
 @import 'index/index.css';
+@import 'index/footer.css';
+
+@import 'tootoreal/tootoreal.css';
+
+@import 'loci/loci.css';
