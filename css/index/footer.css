@@ -18,3 +18,9 @@
 .soc{
 
 }
+
+@media(max-width: 1600px){
+    .soc{
+        max-width: 70px;
+    }
+}

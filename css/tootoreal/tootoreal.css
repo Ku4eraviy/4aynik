@@ -1,7 +1,9 @@
 .s_img{
     display: flex;
+    gap: 30px
 }
 
 .foto{
     margin-bottom: 30px;
 }
+
